@@ -14,8 +14,8 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build
       run: |
-        yarn install
-        yarn run build
+        yarn
+        yarn build
     - name: Firebase Deploy
       run: |
         sudo yarn add -g firebase-tools
