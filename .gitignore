@@ -1,5 +1,4 @@
 /.firebase
-*firebase.js
 *.firebaserc
 
 # dependencies
